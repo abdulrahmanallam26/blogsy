@@ -1,0 +1,47 @@
+/* تحسين الشكل العام */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* شريط التنقل */
+.navbar {
+    transition: background-color 0.5s ease-in-out;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
+    color: #ffcc00 !important;
+}
+
+/* تنسيق البطاقات */
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* تحسين الأزرار */
+.btn-outline-primary {
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+/* التذييل */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+}
